@@ -1,4 +1,4 @@
-# sb-rest
+# springboo1
 Rest tinkering in Spring Boot
 
 Build and package:
