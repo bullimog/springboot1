@@ -1,4 +1,4 @@
-# springboo1
+# springboot1
 Rest tinkering in Spring Boot
 
 Build and package:
