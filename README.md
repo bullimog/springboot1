@@ -5,4 +5,4 @@ Build and package:
 > mvn clean package
 
 Execute:
-> java -jar ./target/gs-rest-service-0.1.0.jar
+> java -jar ./target/springboot1-service-0.1.0.jar
