@@ -18,6 +18,15 @@ public class Application {
     }
 
 
+    /**
+     * When there is an interface witha single method, it can be implemented with a Lambda.
+     * public interface CommandLineRunner {
+     *     void run(String... args) throws Exception;
+     * }
+     * This is a Fn to println all beans in the current context, prior to the application starting.
+     * This same action may be performed defining a @Component class implementing the CommandLineRunner interface, and
+     * overriding the run method.
+     */
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
